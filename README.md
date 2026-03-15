@@ -1,6 +1,6 @@
 # DBP Translator Skill for Claude
 
-**Author:** Chuah Kee Man
+**Author:** Chuah Kee Man (https://chuahkeeman.com | kmchuah@unimas.my)
 
 A Claude skill that translates English text into standard Bahasa Melayu following [Dewan Bahasa dan Pustaka (DBP)](https://www.dbp.gov.my/) conventions.
 
