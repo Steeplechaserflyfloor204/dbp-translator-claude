@@ -1,4 +1,4 @@
-# Malay Translator Skill for Claude (DBP Standard Malay)
+# Malay Translator Skill for Claude (DBP Standards)
 
 **Author:** Chuah Kee Man (https://chuahkeeman.com | kmchuah@unimas.my)
 
