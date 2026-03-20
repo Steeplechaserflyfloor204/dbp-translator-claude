@@ -4,7 +4,7 @@ metadata:
   author: Chuah Kee Man
 description: >
   Translate English text into standard Bahasa Melayu following Dewan Bahasa dan Pustaka (DBP) conventions.
-  Use this skill whenever the user asks to translate English to Malay, Bahasa Melayu, or BM — including
+  Use this skill whenever the user asks to translate English to Malay, Bahasa Melayu, or BM, including
   formal documents, technical/academic content, creative writing, marketing copy, and everyday text.
   Also trigger when the user pastes English text and asks for a Malay version, says "translate this to BM",
   "terjemah", "tukar ke Bahasa Melayu", or any similar phrasing. This skill applies even for short phrases
