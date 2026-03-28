@@ -1,5 +1,8 @@
 # Malay Translator Skill for Claude (DBP Standard)
 
+<img width="1850" height="404" alt="dbp-claude" src="https://github.com/user-attachments/assets/80001a50-652c-43fc-9e47-5e21cbb1caa2" />
+
+
 **Author:** Chuah Kee Man (https://chuahkeeman.com | kmchuah@unimas.my)
 
 A Claude skill that translates English text into standard Bahasa Melayu following [Dewan Bahasa dan Pustaka (DBP)](https://www.dbp.gov.my/) conventions.
